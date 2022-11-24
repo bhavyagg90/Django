@@ -20,3 +20,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('', include('home.urls'))
 ]
+admin.site.site_header="harry IC"
+admin.site.site_title="Ice Creams Admin Portal"
+admin.site.index_title="Welcome to harry IC"
